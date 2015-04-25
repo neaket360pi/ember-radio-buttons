@@ -1,0 +1,4 @@
+test:
+  build: .
+  command: ember test
+

@@ -1,0 +1,6 @@
+run:
+  test:
+
+notifications:
+  - email:
+    - nick.eaket@360pi.com
