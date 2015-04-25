@@ -1,0 +1,23 @@
+environment:
+  language: node
+
+  language_versions:
+  - v0.10.38
+
+build:
+  before:
+  - npm i -g bower ember-cli
+  - npm i
+  - bower i
+
+  info:
+  - node --version
+  - bower --version
+  - ember --version
+
+  run:
+    test: ember test
+
+notifications:
+  - email:
+    - nick.eaket@360pi.com
